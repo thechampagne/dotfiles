@@ -197,6 +197,8 @@ gaps inner 12px
 
 gaps outer 8px
 
+bindsym $mod+ctrl+shift+l exec i3lock -i ~/back-png.png
+
 # Background URL: https://unsplash.com/photos/green-leafed-trees-UWQP2mh5YJI
 exec_always --no-startup-id feh --bg-fill ~/background.jpg
 exec_always --no-startup-id picom -f
